@@ -20,7 +20,7 @@ class Common extends CI_Model {
         return $sql->row_array();
     }
 	public function navbar_array(){
-		$sql_navbar = $this->db->order_by('menu_sort_order','ASC')->get_where('cms_menu',array('menu_active'=>'1'));
+		$sql_navbar = $this->db->order_by('menu_sort_order','ASC')->get_where('cms_menu');
     	return $sql_navbar->result_array();
 	}
 	public function partial($file,$data)

@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['site_name'] = 'Sapricami CMS';
 
 if ($_SERVER['HTTP_HOST']=='localhost') {
-	$config['main_url'] = 'http://localhost/projects_my/cms/';
+	$config['main_url'] = 'http://localhost/github/cms/';
 }else{
 	$config['main_url'] = 'http://cms.sapricami.com/';
 }

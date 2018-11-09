@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 if ($_SERVER['HTTP_HOST']=='localhost') {
-	$config['base_url'] = 'http://localhost/projects_my/cms/admin/';
+	$config['base_url'] = 'http://localhost/github/cms/admin/';
 }else{
 	$config['base_url'] = 'http://cms.sapricami.com/admin/';
 }

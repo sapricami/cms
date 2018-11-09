@@ -12,7 +12,7 @@ RewriteEngine on
 RewriteCond %{HTTPS} on
 RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteBase /projects_my/cms/
+RewriteBase /github/cms/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?/$1 [L]
