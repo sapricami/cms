@@ -17,9 +17,10 @@ application/logs/*
 /vendor/
 
 /_db/
-/uploads/admins/admin.jpg
-/uploads/admins/blogger.jpg
-/uploads/admins/owner.jpg
-/uploads/cache/
-/uploads/pages/
+!/uploads/admins/admin.jpg
+!/uploads/admins/blogger.jpg
+!/uploads/admins/owner.jpg
+/uploads/admins/*
+/uploads/cache/*
+/uploads/pages/*
 ftpsync.settings
