@@ -1,0 +1,11 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+	padding:0;
+}
+
+
+/*Slider*/
+.carousel-inner img{
+	width: 100%;
+}

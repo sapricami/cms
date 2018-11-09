@@ -1,0 +1,221 @@
+*{-webkit-font-smoothing: subpixel-antialiased;}
+main { margin-top:40px;padding-left: 20px;padding-right: 20px; }
+
+a{
+	color: #e40046;
+}
+a:focus, a:hover {
+	color: #720023;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.section {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main-menu-mobile {
+	height: 60px;
+	width: 100%;
+	background-color: #292b2c;
+}
+
+
+/*SIDEBAR START*/
+.side-nav{
+	background-color: #292b2c;
+}
+.side-nav h1{
+	font-size: 30px;
+	text-align: center;    
+	padding: 10px 0px;margin-top: 20px;
+}
+.side-nav a{
+	padding-left: 10px;
+}
+.side-nav a, .side-nav p,.side-nav .search-form .form-control{
+	color: white;
+}
+.side-nav .search-form input[type=text] {
+    border-bottom: 1px solid #1c2331;
+    font-weight: 300;
+    padding-left: 30px;
+    color: black;
+}
+.side-nav li{
+	padding: 0 8px;
+    margin: 0px 0px;
+}
+.side-nav li hr{
+    background: white;
+}
+.side-nav .collapsible {
+    margin: 0 0;
+}
+.side-nav .collapsible a, 
+.side-nav .collapsible a:active, 
+.side-nav .collapsible a:hover{
+	color: white;
+	font-size: 20px;
+}
+.side-nav .collapsible>li{
+	padding-left: 0;
+	padding-right: 0;
+}
+.side-nav li ul.links li{
+	height: 35px;
+}
+.side-nav li ul.links li a{
+    height: 25px;
+    line-height: 20px;
+    font-size: 18px;
+}
+.side-nav li ul.links li a i{
+	padding-right: 10px;
+}
+/*SIDEBAR ENDS*/
+
+/*TOP MENU*/
+.navbar_sm.row {
+    padding: 10px 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.sidebar_btn .button-sidebar {
+	font-size: 30px;
+	color: white;
+}
+.sidebar_nav {
+	text-align: right;
+}
+.sidebar_nav a.sidebar_nav_link, 
+.sidebar_nav a.sidebar_nav_link:active, 
+.sidebar_nav a.sidebar_nav_link:hover,
+.sidebar_nav a.sidebar_nav_link:focus{
+	font-size: 30px;
+	color: white;
+	margin: 0 8px;
+}
+
+/*HomePage Sliders*/
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+.product_slider, 
+.product_slider_2, 
+.category_slider {
+	padding: 5px;
+}
+.product_slider .owl-item, 
+.product_slider_2 .owl-item, 
+.category_slider .owl-item {
+	padding: 2px;
+}
+.product_section,
+.category_section{
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*HomePage Sliders*/
+
+
+.slider{display: block; width: 100%;margin: 0 auto;}
+span.min{}
+span.max{float: right;}
+main .products-sorting-options{text-align: center;}
+main .products-sorting-options a,
+main .products-sorting-options p{display: inline-block;font-size: 14px;margin: 0px 5px 0px 5px;}
+main .products-sorting-options a.active{color: red;text-decoration: underline;}
+.filters .well {margin-top: 1rem;margin-bottom: 1rem;padding-top: 1rem;padding-bottom: 1rem;}
+
+
+/*login show button*/
+.login-form .input-group a {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 99;
+}
+
+/*vendor*/
+.vendor .vendor_page_slider_form .card{
+	padding: 10px 20px;
+}
+.main-menu-mobile .navbar-brand-vendor{
+	color: white;
+	padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+.rounded-images-block img{margin-bottom: 30px;}
+.rounded-images-block h5{margin-bottom: 40px;}
+
+/*dashboard*/
+.vendor .complete-signup-block{
+    margin:40px 0;
+}
+.vendor .complete-signup-block .task-block{
+    min-height: 300px;  
+    padding:40px 0 ;
+}
+.vendor .complete-signup-block .task-block div.text-center{
+    margin: 10px 0;
+    padding:0 20px;
+}
+.vendor .complete-signup-block .task-block div.ribbon{
+    max-width: 80%;
+    position: relative;
+    left: -10px;
+    text-align: center;
+    background-color: #e40046;
+    border-radius: 0 3px;
+}
+.vendor .complete-signup-block .task-block div.ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: 0;
+ border: 1.5em solid #e40046;
+ z-index: -1;
+}
+.vendor .complete-signup-block .task-block div.ribbon:after {
+ right: -2em;
+ border-left-width: 20px;
+ border-top-width: 12px;
+ border-bottom-width: 12px;
+ border-right-color: transparent;
+}
+.vendor .complete-signup-block .task-block div.ribbon.success{background-color: green;}
+.vendor .complete-signup-block .task-block div.ribbon.success:after{
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: 0;
+ border: 1.5em solid #008000;
+ z-index: -1;
+}.vendor .complete-signup-block .task-block div.ribbon.success:after {
+ right: -2em;
+ border-left-width: 20px;
+ border-top-width: 12px;
+ border-bottom-width: 12px;
+ border-right-color: transparent;
+}
