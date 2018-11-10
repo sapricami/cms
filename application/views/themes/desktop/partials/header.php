@@ -1,1 +1,0 @@
-<title>Sapricami Ecommerce Store</title>

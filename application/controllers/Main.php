@@ -15,11 +15,9 @@ class Main extends CI_Controller {
 
 	public function index()
 	{	
-		$this->data['page_data']=array(
-			'meta_title' => 'Sapricami CMS',
-			'meta_description' => '',
-			'meta_keywords' => '',
-		);
+		$sql_page = $this->db->get_where('cms_pages',array('page_id'=>'1'));
+		$this->data['page_data']=$sql_page->row_array();
+
 		$this->data['current_slug']='home';
 		$this->data['slider'] = $this->common->partial('slider',$this->data);
 		$this->common->layout('home',$this->data);		
